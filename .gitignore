@@ -1,0 +1,22 @@
+#Compiled objects and binaries
+*.o
+*.d
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+parrot
+analyze
+tests_runner
+
+#Model checkpoints (large .bin weights; keep tokenizer.bin)
+models/*
+!models/tokenizer.bin
+
+#Generated plots
+plots/*.png
+
+#Editor
+.vscode/
